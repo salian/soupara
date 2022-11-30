@@ -1,3 +1,5 @@
+# PCB Assembly
+
 ## BOM
 
 To build the macropad you need 
@@ -25,23 +27,26 @@ Optionally you could also add
 
 ## Assembly
 
-#### Step I
+#### Step I (optional)
 - Start with soldering the (optional) WS2812B 5050 Addressable RGB LED on the underside of the PCB. 
 
 #### Step II
 - Solder on the Raspberry Pi Pico.
 
-#### Step III
+#### Step III (optional, if you soldered the RGB LED) 
 
-- Plug the Raspberrry Pi Pico into your PC
-- Save the [latest Circuitpython UF2](https://circuitpython.org/board/raspberry_pi_pico/) file to the Pico
+- Plug the Raspberrry Pi Pico into your PC.
+- Save the [latest Circuitpython UF2](https://circuitpython.org/board/raspberry_pi_pico/) file to the Pico.
 - Upload the test [code.py](../firmware/circuitpython/rgb-led-test) to check if your LED was soldered on properly. The LED will cycle through various colours.
 
 #### Step IV
 
-- Solder the switches
+- Solder the switches.
 - Optionally break off a header strip into a 3-pin and 4-pin piece, and solder them into the jumper and I2C display holes on the PCB. This is needed only if you want to add in I2C peripherals. 
 
 #### Step V
 
+- Plug the Raspberrry Pi Pico into your PC
+- Upload the sample [code.py](../firmware/circuitpython/sample) to the Pico. 
+- Edit the file using Thonny to customize your keymap.
 - Follow the assembly instructions for the case of your choice.
