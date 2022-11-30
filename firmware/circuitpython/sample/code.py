@@ -43,7 +43,7 @@ pixels.show()
 kbd = Keyboard(usb_hid.devices)
 cc = ConsumerControl(usb_hid.devices)
 
-# list of pins to use (skipping GP15 as it used to be funky, using it for Buzzer output)
+# list of pins for keypad (skipping GP15 as it used to be funky, using it for Buzzer output)
 pins = (
     board.GP0,
     board.GP1,
@@ -67,7 +67,10 @@ pins = (
     board.GP20,
 )
 
-print(len(pins))
+# GPIO 15 is made available on the PCB as BUZZ (intended for a Buzzer)
+# but can also be used for other ideas like haptic feedback.
+
+# GPIO 26 & 27 are also made available as I2C pins on the PCB
 
 MEDIA = 1
 KEY = 2
@@ -135,3 +138,6 @@ while True:
                 switch_state[button] = 0
 
     time.sleep(0.01)  # debounce
+
+
+
