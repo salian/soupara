@@ -33,10 +33,7 @@ A key project goal is to keep this extremely affordable as an entry-level macrop
 A few pre-assembled prototype units are available for review and purchase.
 
 #### Component Kits
-A few kits including PCB and components are available to buy. Basic soldering skills are needed; most components are through-hole however there is one single component (RGB LED) which needs SMD soldering.
+A few kits including PCB and components are available to buy. Basic soldering skills are needed; most components are through-hole however there is one single component (RGB LED) which needs SMD soldering. An [assembly guide](docs/ASSEMBLY.md) is available.
 
 #### Open Source Hardware
 You can build this using the PCB files and Schematics from the repository. The cases can also be downloaded from the [hardware/case folder](hardware/rev%201/case/fdm-printable) for 3D-printing.
-
-
-
