@@ -37,3 +37,5 @@ A few kits including PCB and components are available to buy. Basic soldering sk
 
 #### Open Source Hardware
 You can build this using the PCB files and Schematics from the repository. The cases can also be downloaded from the [hardware/case folder](hardware/rev%201/case/fdm-printable) for 3D-printing.
+
+<img src="hardware/rev%201/case/fdm-printable/render.png" width=50% height=50%>
