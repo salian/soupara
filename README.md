@@ -20,7 +20,7 @@ A key project goal is to keep this extremely affordable as an entry-level macrop
 - RGB Underlighting
 - Compact and Affordable
 
-### Advanced features (in progress) 
+### Optional features 
 
 - QMK Compatibility
 - OLED I2C Display
