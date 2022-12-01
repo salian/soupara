@@ -49,5 +49,5 @@ Optionally you could also add
 - Plug the Raspberrry Pi Pico into your PC
 - Upload the sample [code.py](../firmware/circuitpython/sample) to the Pico. 
 - [Download](https://circuitpython.org/libraries) the adafruit_hid folder and neopixel.mpy, adafruit_pixelbuf.mpy and neopixel_spi.mpy libraries and save to /lib on the Pico
-- Edit the file using Thonny to customize your keymap.
+- Edit code.py using Thonny or an editor of your choice, to customize the keys' functionality.
 - Follow the assembly instructions for the case of your choice.
