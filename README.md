@@ -17,7 +17,7 @@ A key project goal is to keep this extremely affordable as an entry-level macrop
 ### Basic features
 
 - 20 Programmable Keys
-- RGB Underlighting
+- RGB Underglow
 - Compact and Affordable
 
 ### Optional features 
