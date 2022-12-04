@@ -10,6 +10,10 @@ To build the macropad you need
 | 12x12x7.3mm Tactile Push Button Switch | 20 | 120/- |
 | Keycaps (round or square for tactile switches) | 20 | 80/- |
 
+Note: Avoid Omron Tactile Switches which have little nubs on the underside.
+
+<img src="omron-12x12x7.3mm-tactile-push-button-switch-2-800x800.jpeg" width=20% height=20%>
+
 Optionally you could also add
 
 | **Optional Addons** | | |
